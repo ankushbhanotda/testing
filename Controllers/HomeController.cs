@@ -11,9 +11,9 @@ namespace ContosoUniversity.Controllers
 {
     public class HomeController : Controller
     {
-        private SchoolContext db = new SchoolContext()
+        private SchoolContext db = new SchoolContext();
 
-        //public ActionResult Index()
+        public ActionResult Index()
         {
             return View();
         }
