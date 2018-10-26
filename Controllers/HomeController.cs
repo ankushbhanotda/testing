@@ -13,7 +13,7 @@ namespace ContosoUniversity.Controllers
     {
         private SchoolContext db = new SchoolContext()
 
-        public ActionResult Index()
+        //public ActionResult Index()
         {
             return View();
         }
